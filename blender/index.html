@@ -6,12 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  
+  <meta name="author" content="Fabian 'fabiantheblind' Morón Zirfas">
   
   <title>Blender - Doing Papercraft</title>
   
 
-  <link rel="shortcut icon" href="../img/favicon.ico">
+  <link rel="shortcut icon" href="../favicon.ico">
+  
 
   
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
@@ -19,6 +20,7 @@
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="../css/highlight.css">
+  <link href="../extra.css" rel="stylesheet">
 
   
   <script>
@@ -74,103 +76,91 @@
         
             <ul>
             
-                <li class="toctree-l3"><a href="#application-blender-3d">Application Blender 3D</a></li>
+                <li class="toctree-l3"><a href="#about-blender">About Blender</a></li>
                 
             
-                <li class="toctree-l3"><a href="#why-blender">Why Blender</a></li>
+                <li class="toctree-l3"><a href="#ui-shortcuts">(UI) Shortcuts</a></li>
                 
             
-                <li class="toctree-l3"><a href="#shortcuts">Shortcuts</a></li>
+                <li class="toctree-l3"><a href="#ui-search-menu">(UI) Search Menu</a></li>
                 
             
-                <li class="toctree-l3"><a href="#search-menu">Search Menu</a></li>
+                <li class="toctree-l3"><a href="#ui-customize">(UI) Customize</a></li>
                 
             
-                <li class="toctree-l3"><a href="#interface">Interface</a></li>
+                <li class="toctree-l3"><a href="#ui-view-region">(UI) View Region</a></li>
                 
             
-                <li class="toctree-l3"><a href="#customize-ui">Customize UI</a></li>
+                <li class="toctree-l3"><a href="#ui-viewport-shading">(UI) Viewport Shading</a></li>
                 
             
-                <li class="toctree-l3"><a href="#window-content">Window content</a></li>
+                <li class="toctree-l3"><a href="#ui-view-navigation">(UI) View Navigation</a></li>
                 
             
-                <li class="toctree-l3"><a href="#view-areas">View areas</a></li>
+                <li class="toctree-l3"><a href="#ui-cursor">(UI) Cursor</a></li>
                 
             
-                <li class="toctree-l3"><a href="#display-methods">Display methods</a></li>
+                <li class="toctree-l3"><a href="#modeling-modes">(Modeling) Modes</a></li>
                 
             
-                <li class="toctree-l3"><a href="#view-navigation">View Navigation</a></li>
+                <li class="toctree-l3"><a href="#modeling-add-delete">(Modeling) Add &amp; Delete</a></li>
                 
             
-                <li class="toctree-l3"><a href="#object-and-edit-mode">Object and Edit Mode</a></li>
+                <li class="toctree-l3"><a href="#modeling-making-selections">(Modeling) Making Selections</a></li>
                 
             
-                <li class="toctree-l3"><a href="#selection">Selection</a></li>
+                <li class="toctree-l3"><a href="#modeling-duplication">(Modeling) Duplication</a></li>
                 
             
-                <li class="toctree-l3"><a href="#transformation">Transformation</a></li>
+                <li class="toctree-l3"><a href="#modeling-using-manipulators">(Modeling) Using Manipulators</a></li>
                 
             
-                <li class="toctree-l3"><a href="#using-manipulators">Using manipulators</a></li>
+                <li class="toctree-l3"><a href="#modeling-using-hotkeys">(Modeling) Using Hotkeys</a></li>
                 
             
-                <li class="toctree-l3"><a href="#using-hotkeys">Using hotkeys</a></li>
+                <li class="toctree-l3"><a href="#modeling-mesh-manipulation">(Modeling) Mesh Manipulation</a></li>
                 
             
-                <li class="toctree-l3"><a href="#cursor">Cursor</a></li>
+                <li class="toctree-l3"><a href="#modeling-extrude">(Modeling) Extrude</a></li>
                 
             
-                <li class="toctree-l3"><a href="#creation">Creation</a></li>
+                <li class="toctree-l3"><a href="#modeling-other-manipulations">(Modeling) Other Manipulations</a></li>
                 
             
-                <li class="toctree-l3"><a href="#duplication">Duplication</a></li>
+                <li class="toctree-l3"><a href="#using-modifiers">Using Modifiers</a></li>
                 
             
-                <li class="toctree-l3"><a href="#add-delete">Add &amp; Delete</a></li>
+                <li class="toctree-l3"><a href="#modifiers-subdivision-surface">(Modifiers) Subdivision Surface</a></li>
                 
             
-                <li class="toctree-l3"><a href="#mesh-manipulation">Mesh Manipulation</a></li>
+                <li class="toctree-l3"><a href="#modifiers-boolean">(Modifiers) Boolean</a></li>
                 
             
-                <li class="toctree-l3"><a href="#extrude">Extrude</a></li>
+                <li class="toctree-l3"><a href="#modifiers-simple-deform">(Modifiers) Simple Deform</a></li>
                 
             
-                <li class="toctree-l3"><a href="#other-manipulations">Other Manipulations</a></li>
+                <li class="toctree-l3"><a href="#modifiers-array">(Modifiers) Array</a></li>
                 
             
-                <li class="toctree-l3"><a href="#modifiers">Modifiers</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#subdivision-surface">Subdivision Surface</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#boolean">Boolean</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#simple-deform">Simple Deform</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#array">Array</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#subdivide-and-displace">Subdivide and Displace</a></li>
+                <li class="toctree-l3"><a href="#modifiers-subdivide-and-displace">(Modifiers) Subdivide and Displace</a></li>
                 
             
                 <li class="toctree-l3"><a href="#add-ons">Add-ons</a></li>
                 
             
-                <li class="toctree-l3"><a href="#paper-model-add-on">Paper Model Add-on</a></li>
+                <li class="toctree-l3"><a href="#add-on-paper-model">(Add-on) Paper Model</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#add-on-dxf-export">(Add-on) DXF export</a></li>
                 
             
                 <li class="toctree-l3"><a href="#export">Export</a></li>
                 
             
-                <li class="toctree-l3"><a href="#stl-stereolithography">STL STereoLithography</a></li>
+                <li class="toctree-l3"><a href="#export-stl-stereolithography">(Export) STL STereoLithography</a></li>
                 
             
-                <li class="toctree-l3"><a href="#obj-wavefront">OBJ Wavefront</a></li>
+                <li class="toctree-l3"><a href="#export-obj-wavefront">(Export) OBJ Wavefront</a></li>
                 
             
             </ul>
@@ -180,7 +170,14 @@
           
             <li>
     <li class="toctree-l1 ">
-        <a class="" href="../processing.org/">Processing</a>
+        <a class="" href="../processing/">Processing</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../123dmake/">123DMake</a>
         
     </li>
 <li>
@@ -231,6 +228,8 @@
     <li>Blender</li>
     <li class="wy-breadcrumbs-aside">
       
+        
+      
     </li>
   </ul>
   <hr/>
@@ -238,28 +237,34 @@
           <div role="main">
             <div class="section">
               
-                <h6 id="application-blender-3d">Application Blender 3D<a class="headerlink" href="#application-blender-3d" title="Permanent link">&para;</a></h6>
+                <h6 id="about-blender">About Blender<a class="headerlink" href="#about-blender" title="Permanent link">&para;</a></h6>
+<p><img alt="Blender logo" src="../images/blender-logo.png" /></p>
 <blockquote>
-<p>Blender is a professional free and open-source 3D computer graphics software product used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games. Blender's features include 3D modeling, UV unwrapping, texturing, raster graphics editing, rigging and skinning, fluid and smoke simulation, particle simulation, soft body simulation, sculpting, animating, match moving, camera tracking, rendering, video editing and compositing. Alongside the modeling features it also has an integrated game engine.<br />
+<p>Blender is a professional free and open-source 3D computer graphics software product used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games. Blender&rsquo;s features include 3D modeling, UV unwrapping, texturing, raster graphics editing, rigging and skinning, fluid and smoke simulation, particle simulation, soft body simulation, sculpting, animating, match moving, camera tracking, rendering, video editing and compositing. Alongside the modeling features it also has an integrated game engine.<br />
 <a href="https://en.wikipedia.org/wiki/Blender_(software)">From Wikipedia, the free encyclopedia</a>.  </p>
 </blockquote>
-<h6 id="why-blender">Why Blender<a class="headerlink" href="#why-blender" title="Permanent link">&para;</a></h6>
-<p>We mainly use Blender because it is a powerful open source 3D application. If you already familiar with Blender or know other 3D applications you can skip this part and move on to the <a href="#autodesk-123dmake">Autodesk 123DMake section</a> or export your plans directly from Blender using the <a href="#paper-model-add-on">Paper Model Add-on</a>.</p>
-<h6 id="shortcuts">Shortcuts<a class="headerlink" href="#shortcuts" title="Permanent link">&para;</a></h6>
-<p>Blender relies heavily on shortcuts. See all shortcuts here <a href="http://waldobronchart.github.io/ShortcutMapper/#Blender">waldobronchart.github.io/ShortcutMapper/#Blender</a>. Some shortcuts depend on the position of the mouse e.g. <strong>x</strong> for deleting only works when the mouse is over the 3D view.  </p>
-<h6 id="search-menu">Search Menu<a class="headerlink" href="#search-menu" title="Permanent link">&para;</a></h6>
-<p>Another quick way to call actions open panels is the "Search Menu". It gives you quick access to all of Blenders commands by typing. you can open it just by hitting the <strong>space bar</strong> This is pretty handy if you know a commands name but don't know where to find it. Read more <a href="https://www.blender.org/manual/interface/extended_controls.html">here.</a></p>
-<h6 id="interface">Interface<a class="headerlink" href="#interface" title="Permanent link">&para;</a></h6>
-<h6 id="customize-ui">Customize UI<a class="headerlink" href="#customize-ui" title="Permanent link">&para;</a></h6>
-<p>Go to: File &gt; User Preferences… and select the "Input" tab.  </p>
-<ul>
+<p>We use <a href="https://www.blender.org/">Blender</a> because it is a powerful open source, free of charge 3D application. It has a broad user base and a excellent <a href="https://www.blender.org/manual/contents.html#">reference</a> If you are already familiar with Blender or know other 3D applications you can skip this part and move on to the <a href="../123dmake/">Autodesk 123DMake section</a> or export your plans directly from within Blender using the <a href="#paper-model-add-on">Paper Model Add-on</a>.</p>
+<h6 id="ui-shortcuts">(UI) Shortcuts<a class="headerlink" href="#ui-shortcuts" title="Permanent link">&para;</a></h6>
+<p>Blender relies heavily on shortcuts. See an overview of all shortcuts here <a href="http://waldobronchart.github.io/ShortcutMapper/#Blender">waldobronchart.github.io/ShortcutMapper/#Blender</a>. Some shortcuts depend on the position of the mouse e.g. <strong>x</strong> for deleting only works when the mouse is over the 3D view.  </p>
+<h6 id="ui-search-menu">(UI) Search Menu<a class="headerlink" href="#ui-search-menu" title="Permanent link">&para;</a></h6>
+<p>Another quick way to call actions or open panels is the &ldquo;Search Menu&rdquo;. It gives you quick access to all of Blenders commands by typing. you can open it just by hitting the <strong>space bar</strong>. This is pretty handy if you know a commands name but don&rsquo;t know where to find it. Read more <a href="https://www.blender.org/manual/interface/extended_controls.html">here.</a></p>
+<h6 id="ui-customize">(UI) Customize<a class="headerlink" href="#ui-customize" title="Permanent link">&para;</a></h6>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The interface is highly customizable in Blender. We will only adjust some minor settings to make it more user friendly.  </p>
+</div>
+<p>Go to: <strong>File &gt; User Preferences…</strong> and select the &ldquo;Input&rdquo; tab.  </p>
+<ol>
 <li>Change the Mouse selection from right click to left click in the settings &gt; input tab</li>
-<li>"Emulate Numpad" (if you're on a laptop you can use the numbers instead of the numpad)</li>
-<li>adjust UI colors in the theme tab (if you like it more fancy)  </li>
-</ul>
-<p>You need to hit <strong>"Save User Settings"</strong> at the bottom of the window to apply these changes. </p>
-<p><img alt="blender-user-preferences.png" src="../images/blender-user-preferences.png" />  </p>
-<p>You can add or remove windows by right clicking into the "seam" between two windows to add or join new windows. When adding you toggle horizontal or vertical split by pressing the middle mouse button. You can do the same by clicking and dragging the upper left corner to the left or down. To remove them just join them again. (See the animation below)  </p>
+<li>&ldquo;Emulate Numpad&rdquo; (if you&rsquo;re on a laptop you can use the numbers instead of the numpad)</li>
+<li>Adjust UI colors in the theme tab (if you like it more fancy)  </li>
+</ol>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>You need to hit <strong>&ldquo;Save User Settings&rdquo;</strong> at the bottom of the window to apply these changes. </p>
+</div>
+<p><a href="../images/blender-user-preferences.png"><img alt="blender-user-preferences.png" src="../images/blender-user-preferences.png" /></a>  </p>
+<p>You can add or remove windows by right clicking into the &ldquo;seam&rdquo; between two windows. This allows you to add new windows or join existing ones. When adding you can toggle a horizontal or vertical split by pressing the middle mouse button This will be indicated by the dashed line that appears on the window you are trying to split. You can do the same by clicking and dragging the striped corner of a window to the left or down. To remove those windows just join them again. (See the animation below.)  </p>
 <table>
 <thead>
 <tr>
@@ -286,17 +291,25 @@
 </tr>
 </tbody>
 </table>
-<p><img alt="images/blender-ui.gif" src="../images/blender-ui.gif" /></p>
-<h6 id="window-content">Window content<a class="headerlink" href="#window-content" title="Permanent link">&para;</a></h6>
-<p>You can change the content of a window by changing the icon in the header (which is at the bottom of the 3D view).  </p>
-<p><img alt="images/blender-change-window-content.png" src="../images/blender-change-window-content.png" />  </p>
-<h6 id="view-areas">View areas<a class="headerlink" href="#view-areas" title="Permanent link">&para;</a></h6>
-<p>Within the 3D view you also have a tool bar on the left and the tool shelf on the right. <strong>t</strong> shows tool bar and <strong>n</strong> the tool shelf. On the toolbar you have the most common commands for transformation, editing, creation and many more. On the tool shelf you can access properties for transformations, the view, the 3D cursor and many more. Both of these panels are kind of quick access palettes for properties and action that are essential for editing.  </p>
-<p><img alt="images/blender-3d-viewport-tools.png" src="../images/blender-3d-viewport-tools.png" />  </p>
-<h6 id="display-methods">Display methods<a class="headerlink" href="#display-methods" title="Permanent link">&para;</a></h6>
-<p>You can switch the display method on the bottom of the 3D view. For us the only important options are "Solid", "Wireframe" and "Bounding Box".  </p>
-<p><img alt="images/viewport-shading.png" src="../images/viewport-shading.png" />  </p>
-<h6 id="view-navigation">View Navigation<a class="headerlink" href="#view-navigation" title="Permanent link">&para;</a></h6>
+<p><a href="../images/blender-ui.gif"><img alt="images/blender-ui.gif" src="../images/blender-ui.gif" /></a></p>
+<p>You can change the content of a window by using the dropdown menu under the icon in the header (which is at the bottom of the 3D view).  </p>
+<p><a href="../images/blender-change-window-content.png"><img alt="images/blender-change-window-content.png" src="../images/blender-change-window-content.png" /></a>  </p>
+<h6 id="ui-view-region">(UI) View Region<a class="headerlink" href="#ui-view-region" title="Permanent link">&para;</a></h6>
+<p>Within the 3D view you also have a tool bar on the left and the tool shelf on the right. <strong>t</strong> shows tool bar and <strong>n</strong> the tool shelf. On the toolbar you have the most common commands for transformation, editing, creation and many more organized as tabs. On the tool shelf you can access commonly used properties for transformations, the view, the 3D cursor and others organized as expandable panels. Both of these regions are kind of quick access palettes for properties and action that are essential for editing.  </p>
+<p><a href="../images/blender-3d-viewport-tools.png"><img alt="images/blender-3d-viewport-tools.png" src="../images/blender-3d-viewport-tools.png" /></a>  </p>
+<h6 id="ui-viewport-shading">(UI) Viewport Shading<a class="headerlink" href="#ui-viewport-shading" title="Permanent link">&para;</a></h6>
+<p>There are several shading methods available. You can see your model as:  </p>
+<ul>
+<li>Bounding Box</li>
+<li>Wireframe</li>
+<li>Solid</li>
+<li>Texture</li>
+<li>Material</li>
+<li>Rendered</li>
+</ul>
+<p>You can switch the shading method on the bottom of the 3D view. For us the only important options are &ldquo;Solid&rdquo;, &ldquo;Wireframe&rdquo; and &ldquo;Bounding Box&rdquo;. Read more about this <a href="https://www.blender.org/manual/editors/3dview/display/shading.html">in the docs.</a></p>
+<p><a href="../images/viewport-shading.png"><img alt="images/viewport-shading.png" src="../images/viewport-shading.png" /></a>  </p>
+<h6 id="ui-view-navigation">(UI) View Navigation<a class="headerlink" href="#ui-view-navigation" title="Permanent link">&para;</a></h6>
 <p>The basic navigation in the 3D view is done with the mouse. You can also change the view by using the numpad.  </p>
 <table>
 <thead>
@@ -328,7 +341,10 @@
 </tr>
 </tbody>
 </table>
-<p><em>The most useful keys on the numpad are (table also has emulated numpad):</em>  </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The most useful keys on the numpad are (table also has emulated numpad)</p>
+</div>
 <table>
 <thead>
 <tr>
@@ -435,12 +451,73 @@
 </tr>
 </tbody>
 </table>
-<h6 id="object-and-edit-mode">Object and Edit Mode<a class="headerlink" href="#object-and-edit-mode" title="Permanent link">&para;</a></h6>
-<p>The <strong>"Object Mode"</strong> is for working with objects in a whole. The <strong>"Edit Mode"</strong> is for editing vertices, edges or faces of an object. When using <a href="#modifiers">modifiers</a> you see their effect in object mode. Not in Edit Mode.</p>
-<h6 id="selection">Selection<a class="headerlink" href="#selection" title="Permanent link">&para;</a></h6>
-<p>To select objects use the left mouse click (if set to left selection. The default is right selection). You can add or remove objects to or from the selection by holding <strong>⇧</strong>. Selected objects are highlighted in orange (default theme). The first in the order of selected objects is a bit brighter. You can also select everything by hitting <strong>a</strong>. In "Edit Mode" there are some extra options for selecting things. You can switch between vertices, edges and faces selection and you can combine them with the buttons on the bar below the 3D view. </p>
-<p><img alt="selection-modes.png" src="../images/selection-modes.png" />  </p>
-<p>The rectangular (hit <strong>r</strong> before selecting) or circular (hit <strong>c</strong>) selection by clicking and dragging only applies to the visible objects, vertices, edges and faces by default you can change this if you want. There are more options for selecting. Like Inverting selections and so on. See <a href="https://www.blender.org/manual/modeling/meshes/selecting/introduction.html#selection-mode">the Blender Manual</a>  </p>
+<h6 id="ui-cursor">(UI) Cursor<a class="headerlink" href="#ui-cursor" title="Permanent link">&para;</a></h6>
+<p>The 3D cursor is a pivot point for various features. You can e.g. rotate objects around the cursor (see image below). Newly created objects get created at this position. You can also use the cursor to snap objects to it or the other way around.  </p>
+<table>
+<thead>
+<tr>
+<th>Key/Action</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>right click</td>
+<td>set 3D cursor position</td>
+</tr>
+<tr>
+<td>⇧ + c</td>
+<td>reset 3D cursor to the centre of the scene</td>
+</tr>
+<tr>
+<td>⇧ + s</td>
+<td>open snap menu (snap to cursor and so on)</td>
+</tr>
+</tbody>
+</table>
+<p><a href="../images/pivot-menu.png"><img alt="images/pivot-menu.png" src="../images/pivot-menu.png" /></a></p>
+<h6 id="modeling-modes">(Modeling) Modes<a class="headerlink" href="#modeling-modes" title="Permanent link">&para;</a></h6>
+<p>The <strong>&ldquo;Object Mode&rdquo;</strong> is for working with objects in a whole and editing your scene. You can add objects, cameras lamps and others in this mode. The <strong>&ldquo;Edit Mode&rdquo;</strong> is for editing the vertices, edges or faces of an object. When using <a href="#modifiers">modifiers</a> you see their effect in object mode, <strong>not in Edit Mode</strong>. You can switch between Object and Edit mode just by hitting <strong>⇥</strong> when your mouse is ove the 3D viewport. There are more modes available. <a href="https://www.blender.org/manual/editors/3dview/object/modes.html">Readmore in the docs.</a></p>
+<h6 id="modeling-add-delete">(Modeling) Add &amp; Delete<a class="headerlink" href="#modeling-add-delete" title="Permanent link">&para;</a></h6>
+<p>On the tool bar on the left of the 3D view you have various possibilities to add objects.
+Use the Create tab an the left to add basic shapes. You can also use the hotkey <strong>⇧ + a</strong> or use the &ldquo;Add&rdquo; menu at the bottom of the 3D view. When you create a new shape you get a new panel at the bottom of the toolbar. it is called the operator panel. There you can set additional settings for the newly created shape e.g. the subdivision of a ICO Sphere or the depth and the radius of a cylinder ad so on. <strong>This is only possible on creation of the shape.</strong> If the operator panel does not show up just hit <strong>F6</strong> to show it as a floating panel.<br />
+To delete the selection hit <strong>x</strong> this applies for Edit- and Object Mode. In Edit Mode you get an additional panel to decide what should be deleted e.g. Vertices, edges, faces and even more options like edge collapse and more. You need to play with it and <a href="https://www.blender.org/manual/modeling/meshes/editing/basics/deleting.html">read in the manual</a> about it.</p>
+<table>
+<thead>
+<tr>
+<th>Key/Action</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Toolbar Left</td>
+<td>add different type of objects</td>
+</tr>
+<tr>
+<td>Add Menu</td>
+<td>add different type of objects</td>
+</tr>
+<tr>
+<td>⇧ + a</td>
+<td>open &ldquo;Add&rdquo; floating panel</td>
+</tr>
+<tr>
+<td>F6</td>
+<td>open &ldquo;Operator&rdquo; floating panel</td>
+</tr>
+<tr>
+<td>x</td>
+<td>delete selection</td>
+</tr>
+</tbody>
+</table>
+<h6 id="modeling-making-selections">(Modeling) Making Selections<a class="headerlink" href="#modeling-making-selections" title="Permanent link">&para;</a></h6>
+<p>To select objects use the left mouse click (if set to left selection. The default is right selection). You can add or remove objects to or from the selection by holding <strong>⇧</strong>. Selected objects are highlighted in orange (default theme). The first in the order of selected objects is a bit brighter. You can also select everything by hitting <strong>a</strong>. In &ldquo;Edit Mode&rdquo; there are some extra options for selecting things. You can switch between vertices, edges and faces selection and you can combine them with the buttons on the bar below the 3D view. </p>
+<p><a href="../images/selection-modes.png"><img alt="selection-modes.png" src="../images/selection-modes.png" /></a>  </p>
+<h6 id="modeling-duplication">(Modeling) Duplication<a class="headerlink" href="#modeling-duplication" title="Permanent link">&para;</a></h6>
+<p>To duplicate the current selection (in edit or object mode) just hit <strong>⇧ + d</strong>. This also sets the newly created objects into grab mode so you can set their new position. All the <a href="#transformation">Transformation</a> rules apply.<br />
+The rectangular (hit <strong>r</strong> before selecting) or circular (hit <strong>c</strong>) selection by clicking and dragging only applies to the visible objects, vertices, edges and faces by default you can change this if you want. There are more options for selecting. Like Inverting selections and so on. See <a href="https://www.blender.org/manual/modeling/meshes/selecting/introduction.html#selection-mode">the Blender Manual</a>  </p>
 <table>
 <thead>
 <tr>
@@ -492,12 +569,11 @@
 </tr>
 </tbody>
 </table>
-<p><img alt="blender-ui-sel.gif" src="../images/blender-ui-sel.gif" />  </p>
-<h6 id="transformation">Transformation<a class="headerlink" href="#transformation" title="Permanent link">&para;</a></h6>
-<h6 id="using-manipulators">Using manipulators<a class="headerlink" href="#using-manipulators" title="Permanent link">&para;</a></h6>
+<p><a href="../images/blender-ui-sel.gif"><img alt="blender-ui-sel.gif" src="../images/blender-ui-sel.gif" /></a>  </p>
+<h6 id="modeling-using-manipulators">(Modeling) Using Manipulators<a class="headerlink" href="#modeling-using-manipulators" title="Permanent link">&para;</a></h6>
 <p>You can transform objects, groups, vertices, edges and faces (i.e. your selection) by using the 3D manipulators. Change between grab, rotate and scale mode on the bottom of the 3D view. You can combine them or shut them off totally. If you click and drag into the circle at the centre of the manipulator you transform on all axis at once.  </p>
-<p><img alt="manipulation.gif" src="../images/manipulation.gif" />  </p>
-<h6 id="using-hotkeys">Using hotkeys<a class="headerlink" href="#using-hotkeys" title="Permanent link">&para;</a></h6>
+<p><a href="../images/manipulation.gif"><img alt="manipulation.gif" src="../images/manipulation.gif" /></a>  </p>
+<h6 id="modeling-using-hotkeys">(Modeling) Using Hotkeys<a class="headerlink" href="#modeling-using-hotkeys" title="Permanent link">&para;</a></h6>
 <p>Sometimes it is even more convenient to use the hotkeys. When using the hotkeys you can easily constrain the manipulation to an axis. Just hit for example <strong>g + x</strong> to only move the selection on the global x-axis. If you hit <strong>x</strong> twice you transform on the objects local axis. The second transformation corresponds with the pull down next to the manipulator buttons on the button of the view. Read some more about the manipulators <a href="https://www.blender.org/manual/editors/3dview/transform/transform_control/manipulators.html">here</a>.   </p>
 <table>
 <thead>
@@ -549,75 +625,13 @@
 </tr>
 </tbody>
 </table>
-<p><img alt="images/manipulation-hotkeys.gif" src="../images/manipulation-hotkeys.gif" />  </p>
-<h6 id="cursor">Cursor<a class="headerlink" href="#cursor" title="Permanent link">&para;</a></h6>
-<p>The 3D cursor is a pivot point for various features. You can e.g. rotate objects around the cursor (see image below). Newly created objects get created at this position. You can also use the cursor to snap objects to it or the other way around.  </p>
-<table>
-<thead>
-<tr>
-<th>Key/Action</th>
-<th>Result</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>right click</td>
-<td>set 3D cursor position</td>
-</tr>
-<tr>
-<td>⇧ + c</td>
-<td>reset 3D cursor to the centre of the scene</td>
-</tr>
-<tr>
-<td>⇧ + s</td>
-<td>open snap menu (snap to cursor and so on)</td>
-</tr>
-</tbody>
-</table>
-<p><img alt="images/pivot-menu.png" src="../images/pivot-menu.png" /></p>
-<h6 id="creation">Creation<a class="headerlink" href="#creation" title="Permanent link">&para;</a></h6>
-<h6 id="duplication">Duplication<a class="headerlink" href="#duplication" title="Permanent link">&para;</a></h6>
-<p>To duplicate the current selection (in edit or object mode) just hit <strong>⇧ + d</strong>. This also sets the newly created objects into grab mode so you can set their new position. All the <a href="#transformation">Transformation</a> rules apply.  </p>
-<h6 id="add-delete">Add &amp; Delete<a class="headerlink" href="#add-delete" title="Permanent link">&para;</a></h6>
-<p>On the tool bar on the left of the 3D view you have various possibilities to add objects.
-Use the Create tab an the left to add basic shapes. You can also use the hotkey <strong>⇧ + a</strong> or use the "Add" menu at the bottom of the 3D view. When you create a new shape you get a new panel at the bottom of the toolbar. There you can set additional settings for the newly created shape e.g. the subdivision of a ICO Sphere or the depth and the radius of a cylinder ad so on. <strong>This is only possible on creation of the shape.</strong> If the operator panel does not show up just hit <strong>F6</strong> to show it as a floating panel.<br />
-To delete the selection hit <strong>x</strong> this applies for Edit- and Object Mode. In Edit Mode you get an additional panel to decide what should be deleted e.g. Vertices, edges, faces and even more options like edge collapse and more. You need to play with it and <a href="https://www.blender.org/manual/modeling/meshes/editing/basics/deleting.html">read in the manual</a> about it.</p>
-<table>
-<thead>
-<tr>
-<th>Key/Action</th>
-<th>Result</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Toolbar Left</td>
-<td>add different type of objects</td>
-</tr>
-<tr>
-<td>Add Menu</td>
-<td>add different type of objects</td>
-</tr>
-<tr>
-<td>⇧ + a</td>
-<td>open "Add" floating panel</td>
-</tr>
-<tr>
-<td>F6</td>
-<td>open "Operator" floating panel</td>
-</tr>
-<tr>
-<td>x</td>
-<td>delete selection</td>
-</tr>
-</tbody>
-</table>
-<h6 id="mesh-manipulation">Mesh Manipulation<a class="headerlink" href="#mesh-manipulation" title="Permanent link">&para;</a></h6>
+<p><a href="../images/manipulation-hotkeys.gif"><img alt="images/manipulation-hotkeys.gif" src="../images/manipulation-hotkeys.gif" /></a>  </p>
+<h6 id="modeling-mesh-manipulation">(Modeling) Mesh Manipulation<a class="headerlink" href="#modeling-mesh-manipulation" title="Permanent link">&para;</a></h6>
 <p>Besides just adding primitive shapes on one another you can also edit the mesh directly. To do this
-Go to Edit Mode by hitting the <strong>⇥</strong> key (TAB). As mentioned before in the <a href="#selection">Selection</a> section you can select in different way. Vertices only, faces or edges or combine these options. You can now move the selection around as mentioned in the <a href="#transformation">Transformation</a> section. To manipulate your mesh even further you can now copy and paste your selection. (<strong>⌘  + c</strong> &amp; <strong>⌘ + v</strong>). Additionally you can use several options on the toolbar to edit your mesh. <strong>Each option has its own operators.</strong>  </p>
-<h6 id="extrude">Extrude<a class="headerlink" href="#extrude" title="Permanent link">&para;</a></h6>
-<p>Extrudes the current selection. <a href="#transformation">All Transformation</a> and <a href="#selection">Selection</a> options apply. You can basically differentiate between "extrude region" (hit <strong>e</strong> or use the button on the toolbar) and "extrude individual". The region extrudes the selection together. The individual extrusion uses each local axis to extrude. See <a href="https://www.blender.org/manual/modeling/meshes/editing/duplicating/extrude.html">the manual for further information.</a></p>
-<p><img alt="images/extrude.gif" src="../images/extrude.gif" />  </p>
+Go to Edit Mode by hitting the <strong>⇥</strong> key (TAB). As mentioned in the <a href="#modeling-making-selections">(Modeling Making Selections)</a> section you can select in different ways. Vertices only, faces or edges or combine these options. You can now move the selection around. To manipulate your mesh even further you can copy and paste your selection. (<strong>⌘  + c</strong> &amp; <strong>⌘ + v</strong>). Additionally you can use several options on the toolbar to edit your mesh. Each option has its own operators.   </p>
+<h6 id="modeling-extrude">(Modeling) Extrude<a class="headerlink" href="#modeling-extrude" title="Permanent link">&para;</a></h6>
+<p>Extrudes the current selection. <a href="#transformation">All Transformation</a> and <a href="#selection">Selection</a> options apply. You can basically differentiate between &ldquo;extrude region&rdquo; (hit <strong>e</strong> or use the button on the toolbar) and &ldquo;extrude individual&rdquo;. The region extrudes the selection together. The individual extrusion uses each local axis to extrude. See <a href="https://www.blender.org/manual/modeling/meshes/editing/duplicating/extrude.html">the manual for further information.</a></p>
+<p><a href="../images/extrude.gif"><img alt="images/extrude.gif" src="../images/extrude.gif" /></a>  </p>
 <table>
 <thead>
 <tr>
@@ -636,7 +650,7 @@ Go to Edit Mode by hitting the <strong>⇥</strong> key (TAB). As mentioned befo
 </tr>
 </tbody>
 </table>
-<h6 id="other-manipulations">Other Manipulations<a class="headerlink" href="#other-manipulations" title="Permanent link">&para;</a></h6>
+<h6 id="modeling-other-manipulations">(Modeling) Other Manipulations<a class="headerlink" href="#modeling-other-manipulations" title="Permanent link">&para;</a></h6>
 <table>
 <thead>
 <tr>
@@ -684,9 +698,12 @@ Go to Edit Mode by hitting the <strong>⇥</strong> key (TAB). As mentioned befo
 </tbody>
 </table>
 <p>To create new geometry on an existing one you can use the several options. Subdivide, Loop Cut and Slide or the Knife to name just a few. Subdivide for example divides the surface a defined number of times and gives some more options, like smoothness and fractal noise. Loop Cut and Slide allows to subdivide a selection as well by setting a position to cut in by dragging the mouse. the Knife does what it says. Allows to cut the mesh.  </p>
-<p>Additionally you will see extra information on some tools on the bottom bar of the 3D view. The Knife for example needs to be confirmed by hitting ↩ (RETURN). Explore the tools by playing with them.  </p>
-<h6 id="modifiers">Modifiers<a class="headerlink" href="#modifiers" title="Permanent link">&para;</a></h6>
-<p>Some modifications can be tedious when done by hand. Fortunately lots of operations have already been pre defined as modifiers. You can access them on the "Properties" window under the little wrench. All modifiers first only affect the selected object. If you want to generate real mesh from them you need to apply them. Also be aware that modifiers work in stack. The order of them define their outcome. You can move them in the stack order by using the up and down arrows on each modifier. We will take a look at some of them that might be useful for our purpose. When you export your form for exchange with the forthcoming applications you don't need to apply these modifiers. An export to Wavefront obj will add all these vertices to the mesh. Read more about modifiers <a href="https://www.blender.org/manual/modeling/modifiers/index.html">here.</a>  </p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>You will see extra information on some tools on the bottom bar of the 3D view. The Knife for example needs to be confirmed by hitting ↩ (RETURN). Explore the tools by playing with them.  </p>
+</div>
+<h6 id="using-modifiers">Using Modifiers<a class="headerlink" href="#using-modifiers" title="Permanent link">&para;</a></h6>
+<p>Some modifications can be tedious when done by hand. Fortunately lots of operations have already been pre defined as modifiers. You can access them on the &ldquo;Properties&rdquo; window under the little wrench. All modifiers first only affect the selected object. If you want to generate real mesh from them you need to apply them. Also be aware that modifiers work in stack. The order of them define their outcome. You can move them in the stack order by using the up and down arrows on each modifier. We will take a look at some of them that might be useful for our purpose. When you export your form for exchange with the forthcoming applications you don&rsquo;t need to apply these modifiers. An export to Wavefront obj will add all these vertices to the mesh. Read more about modifiers <a href="https://www.blender.org/manual/modeling/modifiers/index.html">here.</a>  </p>
 <table>
 <thead>
 <tr>
@@ -723,16 +740,16 @@ Go to Edit Mode by hitting the <strong>⇥</strong> key (TAB). As mentioned befo
 </tr>
 </tbody>
 </table>
-<p><img alt="images/modifiers.png" src="../images/modifiers.png" />  </p>
-<h6 id="subdivision-surface">Subdivision Surface<a class="headerlink" href="#subdivision-surface" title="Permanent link">&para;</a></h6>
-<p>This modifier divides each surface by the number set in the view/render section of it. The difference between view and render should be clear. View is what we see in the 3D view. Render is what will be used in the final render. For our purpose the only thing we need to be concerned about is the view setting. This is what will be exported into our exchange formats. You can also switch between a "Simple" and "Catmull-Clark". To see the result before applying you need to switch the view to Wireframe. See the section <a href="#display-methods">Display methods</a>. You can read more about this modifier <a href="https://www.blender.org/manual/modeling/modifiers/generate/subsurf.html">here.</a>  </p>
+<p><a href="../images/modifiers.png"><img alt="images/modifiers.png" src="../images/modifiers.png" /></a>  </p>
+<h6 id="modifiers-subdivision-surface">(Modifiers) Subdivision Surface<a class="headerlink" href="#modifiers-subdivision-surface" title="Permanent link">&para;</a></h6>
+<p>This modifier divides each surface by the number set in the view/render section of it. The difference between view and render should be clear. View is what we see in the 3D view. Render is what will be used in the final render. For our purpose the only thing we need to be concerned about is the view setting. This is what will be exported into our exchange formats. You can also switch between a &ldquo;Simple&rdquo; and &ldquo;Catmull-Clark&rdquo;. To see the result before applying you need to switch the shading type to Wireframe. You can read more about this modifier <a href="https://www.blender.org/manual/modeling/modifiers/generate/subsurf.html">here.</a>  </p>
 <blockquote>
-<p><strong>"Catmull-Clark"</strong>
+<p><strong>&ldquo;Catmull-Clark&rdquo;</strong>
 The default option, subdivides and smooths the surfaces. According to <a href="https://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface">its Wikipedia page</a>, the “arbitrary-looking formula was chosen by Catmull and Clark based on the aesthetic appearance of the resulting surfaces rather than on a mathematical derivation.  </p>
 </blockquote>
-<p><img alt="images/modifier-subdivision-800x500.gif" src="../images/modifier-subdivision-800x500.gif" />  </p>
-<h6 id="boolean">Boolean<a class="headerlink" href="#boolean" title="Permanent link">&para;</a></h6>
-<p>The "Boolean Modifier" can be used to create intersection between two objects. When you first apply it you wont see any change. You need to select another object in your scene to be used as the mesh object for the operation. Then you have 3 different methods to apply the modifier. Read more <a href="https://www.blender.org/manual/modeling/modifiers/generate/booleans.html">here.</a> </p>
+<p><a href="../images/modifier-subdivision-800x500.gif"><img alt="images/modifier-subdivision-800x500.gif" src="../images/modifier-subdivision-800x500.gif" /></a>  </p>
+<h6 id="modifiers-boolean">(Modifiers) Boolean<a class="headerlink" href="#modifiers-boolean" title="Permanent link">&para;</a></h6>
+<p>The &ldquo;Boolean Modifier&rdquo; can be used to create intersection between two objects. When you first apply it you wont see any change. You need to select another object in your scene to be used as the mesh object for the operation. Then you have 3 different methods to apply the modifier. Read more <a href="https://www.blender.org/manual/modeling/modifiers/generate/booleans.html">here.</a> </p>
 <table>
 <thead>
 <tr>
@@ -755,8 +772,8 @@ The default option, subdivides and smooths the surfaces. According to <a href="h
 </tr>
 </tbody>
 </table>
-<p><img alt="images/modifier-boolean.gif" src="../images/modifier-boolean.gif" />  </p>
-<h6 id="simple-deform">Simple Deform<a class="headerlink" href="#simple-deform" title="Permanent link">&para;</a></h6>
+<p><a href="../images/modifier-boolean.gif"><img alt="images/modifier-boolean.gif" src="../images/modifier-boolean.gif" /></a>  </p>
+<h6 id="modifiers-simple-deform">(Modifiers) Simple Deform<a class="headerlink" href="#modifiers-simple-deform" title="Permanent link">&para;</a></h6>
 <blockquote>
 <p>The Simple Deform modifier allows easy application of a simple deformation to an object (meshes, lattices, curves, surfaces and texts are supported).<br />
 <a href="https://www.blender.org/manual/modeling/modifiers/deform/simple_deform.html#simple-deform-modifier">Simple Deform Modifier</a>  </p>
@@ -787,31 +804,35 @@ The default option, subdivides and smooths the surfaces. According to <a href="h
 </tr>
 </tbody>
 </table>
-<p><img alt="images/modifier-simple-deform.gif" src="../images/modifier-simple-deform.gif" />  </p>
-<h6 id="array">Array<a class="headerlink" href="#array" title="Permanent link">&para;</a></h6>
-<p>The "Array Modifier" can be used to duplicate elements. You can offset the copies on the 3 axis relative or constantly. You can use an objects transformation to define the offset as well. There are some more options for this modifier. It can be pretty powerful to create multiple copies of an object. Read more <a href="https://www.blender.org/manual/modeling/modifiers/generate/array.html">here.</a>  </p>
-<p><img alt="images/modifier-array.gif" src="../images/modifier-array.gif" />  </p>
-<h6 id="subdivide-and-displace">Subdivide and Displace<a class="headerlink" href="#subdivide-and-displace" title="Permanent link">&para;</a></h6>
+<p><a href="../images/modifier-simple-deform.gif"><img alt="images/modifier-simple-deform.gif" src="../images/modifier-simple-deform.gif" /></a>  </p>
+<h6 id="modifiers-array">(Modifiers) Array<a class="headerlink" href="#modifiers-array" title="Permanent link">&para;</a></h6>
+<p>The &ldquo;Array Modifier&rdquo; can be used to duplicate elements. You can offset the copies on the 3 axis relative or constantly. You can use an objects transformation to define the offset as well. There are some more options for this modifier. It can be pretty powerful to create multiple copies of an object. Read more <a href="https://www.blender.org/manual/modeling/modifiers/generate/array.html">here.</a>  </p>
+<p><a href="../images/modifier-array.gif"><img alt="images/modifier-array.gif" src="../images/modifier-array.gif" /></a>  </p>
+<h6 id="modifiers-subdivide-and-displace">(Modifiers) Subdivide and Displace<a class="headerlink" href="#modifiers-subdivide-and-displace" title="Permanent link">&para;</a></h6>
 <p>To show you what can be done by combining several modifiers the following animation shows how to use the <a href="../subdivision-surface">Subdivision Surface</a> and <a href="https://www.blender.org/manual/modeling/modifiers/deform/displace.html">Displace</a> modifiers together. The subdivision is done to create more vertices and the displacement to generate some offset on them. The displace modifier uses textures to offset the vertices. You could also use an image or a ramp to displace the vertices. Be creative. This is already rather complex for the starters. Use it as inspiration. There are many more modifiers. To much to explore them all here. Play with some/all of them.  </p>
-<p><img alt="images/modifier-subdivide-displace.gif" src="../images/modifier-subdivide-displace.gif" />  </p>
+<p><a href="../images/modifier-subdivide-displace.gif"><img alt="images/modifier-subdivide-displace.gif" src="../images/modifier-subdivide-displace.gif" /></a>  </p>
 <h6 id="add-ons">Add-ons<a class="headerlink" href="#add-ons" title="Permanent link">&para;</a></h6>
 <p>Additionally to the many build in features of Blender there is a whole ecosystem of <a href="https://www.blender.org/manual/advanced/scripting/python/add_ons.html">Add-ons</a>. There are several Add-ons that are directly distributed with Blender but bot enabled by default. You can browse them in the user preferences an enable those that you like to use. You can also install Add-ons from file. These are Python scripts that are written by members of the community. For our project there are two Add-ons we need to download and install.  </p>
-<p><img alt="images/user-prefs-addon.png" src="../images/user-prefs-addon.png" />  </p>
+<p><a href="../images/user-prefs-addon.png"><img alt="images/user-prefs-addon.png" src="../images/user-prefs-addon.png" /></a>  </p>
 <ol>
 <li><a href="https://git.blender.org/gitweb/gitweb.cgi/blender-addons-contrib.git/blob_plain/refs/heads/master:/io_export_paper_model.py">Export: Paper Model (.svg) | Export printable net for paper modeling</a>  </li>
 <li><a href="http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/DXF_Exporter">Autodesk DXF (.dxf) | Export geometry to .DXF file format.</a>  </li>
 </ol>
-<h6 id="paper-model-add-on">Paper Model Add-on<a class="headerlink" href="#paper-model-add-on" title="Permanent link">&para;</a></h6>
+<h6 id="add-on-paper-model">(Add-on) Paper Model<a class="headerlink" href="#add-on-paper-model" title="Permanent link">&para;</a></h6>
 <p>Both are pretty self-explanatory. The Paper Model Add-on adds under File &gt; Export &gt; Paper Model (.svg) the possibility to export a unfolded vector graphic of the selected object. In the export panel ae on the lower left side some export options for the graphic. You can specify the page size, add margins, create tabs for gluing your model and some more options but the default options are pretty good. If the export fails try to scale your model down or increase the size. We will adjust the plans size later on in a vector editor. Read some more about this Add-on <a href="http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/Paper_Model">here.</a></p>
-<p><img alt="images/paprcraft-export.png" src="../images/paprcraft-export.png" /><br />
-<img alt="images/papercraft-export-settings.png" src="../images/papercraft-export-settings.png" />  </p>
-<p>The DXF export Add-on might be useful when working with "dxf2papercraft".</p>
+<p><a href="../images/paprcraft-export.png"><img alt="images/paprcraft-export.png" src="../images/paprcraft-export.png" /></a><br />
+<a href="../images/papercraft-export-settings.png"><img alt="images/papercraft-export-settings.png" src="../images/papercraft-export-settings.png" /></a>  </p>
+<h6 id="add-on-dxf-export">(Add-on) DXF export<a class="headerlink" href="#add-on-dxf-export" title="Permanent link">&para;</a></h6>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>The DXF export Add-on might be useful when working with &ldquo;dxf2papercraft&rdquo;.</p>
+</div>
 <h6 id="export">Export<a class="headerlink" href="#export" title="Permanent link">&para;</a></h6>
-<p>To export our data we can use different options. For one we can use the <a href="#paper-model-add-on">Paper Model Add-on</a>. Then we have a vector graphic we just have to clean up and convert to <a href="https://en.wikipedia.org/wiki/AutoCAD_DXF">DXF</a> to use it for laser cutting. If this is your chosen workflow, move on to <a href="#cleaning-plans-in-vector-editor">Cleaning Plans in Vector Editor</a>. If you want to use 123DMake or Paperkura you need to use an interchange format like <a href="https://en.wikipedia.org/wiki/STL_(file_format)">STL</a> or <a href="https://en.wikipedia.org/wiki/Wavefront_.obj_file">OBJ</a>. You don't need to specify a final scaling. 123DMake and Paperkura both allow to edit the scaling of the Model and the material/paper size.  </p>
-<h6 id="stl-stereolithography">STL STereoLithography<a class="headerlink" href="#stl-stereolithography" title="Permanent link">&para;</a></h6>
-<p>If you use STL you need to use the ascii format and apply all modifiers when used. It would be better that you don't apply the modifiers from within the Add-on. As already mentioned the modifiers depend on their stack, so applying them by hand gives you a better control over the outcome.  </p>
-<h6 id="obj-wavefront">OBJ Wavefront<a class="headerlink" href="#obj-wavefront" title="Permanent link">&para;</a></h6>
-<p>You can also use the <a href="https://en.wikipedia.org/wiki/Wavefront_.obj_file">Wavefront OBJ</a> format. It has some more options for the export but creates a equivalent result. You also should apply the modifiers first as mentioned for the <a href="#stl-stereolithography">STL</a> export.  </p>
+<p>To export our data we can use different options. For one we can use the Paper Model Add-on]. Then we have a vector graphic we just have to clean up and convert to <a href="https://en.wikipedia.org/wiki/AutoCAD_DXF">DXF</a> to use it for laser cutting. If this is your chosen workflow, move on to <a href="#creating-clean-data">Creating Clean Plans</a>. If you want to use 123DMake or Paperkura you need to use an interchange format like <a href="https://en.wikipedia.org/wiki/STL_(file_format)">STL</a> or <a href="https://en.wikipedia.org/wiki/Wavefront_.obj_file">OBJ</a>. You don&rsquo;t need to specify a final scaling. 123DMake and Paperkura both allow to edit the scaling of the Model and the material/paper size.  </p>
+<h6 id="export-stl-stereolithography">(Export) STL STereoLithography<a class="headerlink" href="#export-stl-stereolithography" title="Permanent link">&para;</a></h6>
+<p>If you use STL you need to use the ascii format and apply all modifiers when used. It would be better that you don&rsquo;t apply the modifiers from within the Add-on. As already mentioned the modifiers depend on their stack, so applying them by hand gives you a better control over the outcome.  </p>
+<h6 id="export-obj-wavefront">(Export) OBJ Wavefront<a class="headerlink" href="#export-obj-wavefront" title="Permanent link">&para;</a></h6>
+<p>You can also use the <a href="https://en.wikipedia.org/wiki/Wavefront_.obj_file">Wavefront OBJ</a> format. It has some more options for the export then the STL but creates a equivalent result. You also should apply the modifiers first as mentioned for the <a href="#stl-stereolithography">STL</a> export.  </p>
               
             </div>
           </div>
@@ -819,7 +840,7 @@ The default option, subdivides and smooths the surfaces. According to <a href="h
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../processing.org/" class="btn btn-neutral float-right" title="Processing">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../processing/" class="btn btn-neutral float-right" title="Processing">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../workflows/" class="btn btn-neutral" title="Workflows"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -831,6 +852,8 @@ The default option, subdivides and smooths the surfaces. According to <a href="h
 
   <div role="contentinfo">
     <!-- Copyright etc -->
+    
+      <p>Copyright (c) 2016 Fabian Morón Zirfas & University of Applied Sciences Potsdam (Germany)</p>
     
   </div>
 
@@ -851,7 +874,7 @@ The default option, subdivides and smooths the surfaces. According to <a href="h
         <span><a href="../workflows/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../processing.org/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../processing/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

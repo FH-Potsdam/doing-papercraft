@@ -3,7 +3,7 @@
 
     
     <url>
-     <loc>None/</loc>
+     <loc>http://fh-potsdam.github.io/doing-papercraft//</loc>
      <lastmod>2016-03-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -11,7 +11,7 @@
 
     
     <url>
-     <loc>None/workflows/</loc>
+     <loc>http://fh-potsdam.github.io/doing-papercraft//workflows/</loc>
      <lastmod>2016-03-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -19,7 +19,7 @@
 
     
     <url>
-     <loc>None/blender/</loc>
+     <loc>http://fh-potsdam.github.io/doing-papercraft//blender/</loc>
      <lastmod>2016-03-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -27,7 +27,7 @@
 
     
     <url>
-     <loc>None/processing.org/</loc>
+     <loc>http://fh-potsdam.github.io/doing-papercraft//processing/</loc>
      <lastmod>2016-03-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -35,7 +35,7 @@
 
     
     <url>
-     <loc>None/creating-clean-data/</loc>
+     <loc>http://fh-potsdam.github.io/doing-papercraft//123dmake/</loc>
      <lastmod>2016-03-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -43,7 +43,7 @@
 
     
     <url>
-     <loc>None/laser/</loc>
+     <loc>http://fh-potsdam.github.io/doing-papercraft//creating-clean-data/</loc>
      <lastmod>2016-03-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -51,7 +51,15 @@
 
     
     <url>
-     <loc>None/links/</loc>
+     <loc>http://fh-potsdam.github.io/doing-papercraft//laser/</loc>
+     <lastmod>2016-03-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>http://fh-potsdam.github.io/doing-papercraft//links/</loc>
      <lastmod>2016-03-11</lastmod>
      <changefreq>daily</changefreq>
     </url>

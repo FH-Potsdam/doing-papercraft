@@ -6,12 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  
+  <meta name="author" content="Fabian 'fabiantheblind' Morón Zirfas">
   
   <title>Creating Clean Plans - Doing Papercraft</title>
   
 
-  <link rel="shortcut icon" href="../img/favicon.ico">
+  <link rel="shortcut icon" href="../favicon.ico">
+  
 
   
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
@@ -19,6 +20,7 @@
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="../css/highlight.css">
+  <link href="../extra.css" rel="stylesheet">
 
   
   <script>
@@ -77,7 +79,14 @@
           
             <li>
     <li class="toctree-l1 ">
-        <a class="" href="../processing.org/">Processing</a>
+        <a class="" href="../processing/">Processing</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../123dmake/">123DMake</a>
         
     </li>
 <li>
@@ -88,22 +97,13 @@
         
             <ul>
             
-                <li class="toctree-l3"><a href="#cleaning-plans-in-vector-editor">Cleaning Plans in Vector Editor</a></li>
-                
-            
                 <li class="toctree-l3"><a href="#using-adobe-illustrator">Using Adobe Illustrator</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#usage-hints">Usage Hints</a></li>
                 
             
                 <li class="toctree-l3"><a href="#plans-from-123dmake">Plans from 123DMake</a></li>
                 
             
                 <li class="toctree-l3"><a href="#plans-from-the-blender-paper-model-add-on">Plans from the Blender Paper Model Add-on</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#using-inkscape">Using Inkscape</a></li>
                 
             
                 <li class="toctree-l3"><a href="#export-dxf">Export DXF</a></li>
@@ -153,6 +153,8 @@
     <li>Creating Clean Plans</li>
     <li class="wy-breadcrumbs-aside">
       
+        
+      
     </li>
   </ul>
   <hr/>
@@ -160,32 +162,46 @@
           <div role="main">
             <div class="section">
               
-                <h6 id="cleaning-plans-in-vector-editor">Cleaning Plans in Vector Editor<a class="headerlink" href="#cleaning-plans-in-vector-editor" title="Permanent link">&para;</a></h6>
-<p>After modeling our object in Blender and exporting it with the <a href="../paper-model-add-on">Paper Model Add-on</a> we have a .svg file. If we did the additional step with 123DMake we have a .eps file. Both can be edited in vector editors. For the best result we need to clean up the data a bit more in vector editing application. We will use Adobe Illustrator (Mac, Win) for this. If you don't have a license for illustrator you can also use Inkscape (Cross Platform) or Affinity Designer (Mac).  </p>
+                <p>After modeling our object in Blender and exporting it with the <a href="../paper-model-add-on">Paper Model Add-on</a> we have a .svg file. If we did the additional step with 123DMake we have a .eps file. Both can be edited in vector editors. For the best result we need to clean up the data a bit more. We will use Adobe Illustrator (Mac, Win) for this.  </p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>If you don&rsquo;t have a license for Illustrator you can also use Inkscape (Cross Platform) or Affinity Designer (Mac).  </p>
+</div>
 <h6 id="using-adobe-illustrator">Using Adobe Illustrator<a class="headerlink" href="#using-adobe-illustrator" title="Permanent link">&para;</a></h6>
-<p>Open your svg or eps, set the units of the document to millimeters (⌘ + ⇧ + p) and set your artboard size to match the size of your material (can be accessed through the Artboard tool or directly from the document settings). To see what the laser will use you should take a look at the "Path View". You can switch back and forth between the visual view and the path view by hitting ⌘ + y on your keyboard. </p>
-<h6 id="usage-hints">Usage Hints<a class="headerlink" href="#usage-hints" title="Permanent link">&para;</a></h6>
+<p>Open your svg or eps, set the units of the document to millimeters (⌘ + ⇧ + p) and set your artboard size to match the size of your material (can be accessed through the Artboard tool or directly from the document settings). To see what the laser will use you should take a look at the &ldquo;Path View&rdquo;. You can switch back and forth between the visual view and the path view by hitting ⌘ + y on your keyboard. </p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
 <ul>
-<li>Using the path view is often much simpler. This is what the Sabeko laser software sees.   </li>
-<li>Different colors produce separated layers in the Sabeko laser software.  </li>
-<li>You can select objects by color using the selection menu.  </li>
-<li>For additional information on your cut plan you can use the <a href="https://forums.adobe.com/message/4907404">Monoline Text Drawing Script</a>  </li>
-<li>To create real dashed single line paths use <a href="https://forums.adobe.com/message/3657306">this trick</a> from the Adobe forums.  </li>
+<li><strong>Using the path view is often much simpler.</strong> This is what the Sabeko laser software sees.   </li>
+<li><strong>One color per &ldquo;laser cut layer&rdquo;.</strong> Different colors produce separated layers in the Sabeko laser software.  </li>
+<li>You can <strong>select objects by color</strong> using the selection menu.  </li>
+<li><strong>Create additional marks for folding and assembly.</strong> For additional information on your cut plan you can use the <a href="https://forums.adobe.com/message/4907404">Monoline Text Drawing Script.</a>  </li>
+<li><strong>Dashed lines are not really dashed.</strong> To create real dashed single line paths use <a href="https://forums.adobe.com/message/3657306">this trick</a> from the Adobe forums.  </li>
 </ul>
+</div>
 <h6 id="plans-from-123dmake">Plans from 123DMake<a class="headerlink" href="#plans-from-123dmake" title="Permanent link">&para;</a></h6>
-<p>When you used 123DMake you can see you have the some numbers on the plan and, if not splitted into panels, also some folding marks. We can cut those with a low setting to have some visual hints where to fold our model. To do so you need to give them a different color then the outer form we want to cut out. The laser cutter application will detect that and allow us to engrave them with lower power. Release all groups and compound paths if needed. Sort them by color. Remove all unwanted data.<br />
-One important step is to remove the most outer path. This is an outer bound created when exporting the .eps. If we don't do this it will be cutted by the laser. Your final plans should look like the pictures below.  </p>
-<p><img alt="images/illustrator-123dmake-normal-view.png" src="../images/illustrator-123dmake-normal-view.png" />  </p>
-<p><img alt="images/illustrator-123dmake-plan-pathview.png" src="../images/illustrator-123dmake-plan-pathview.png" />  </p>
-<p><img alt="images/illustrator-123dmake-split-panels-normal-view.png" src="../images/illustrator-123dmake-split-panels-normal-view.png" /><br />
-<img alt="images/illustrator-123dmake-split-panels-path-view.png" src="../images/illustrator-123dmake-split-panels-path-view.png" />  </p>
+<p>If you used 123DMake you have the some numbers on the plan and, if not splitted into panels, also some folding marks. We can engrave those with low power setting to have some visual hints where to fold our model. To do so you need to give them a different color then the outer form which should be cutted. The laser cutter application will detect colors and allow us to apply quickly different settings. Release all groups and compound paths if needed. Sort them by color. Remove all unwanted information.<br />
+One important step is to remove the most outer path (it is a rectangle). This is an outer bound created when exporting the .eps file. If we don&rsquo;t do this it will be cutted by the laser. Your final plans should look like the pictures below.  </p>
+<p><a href="../images/illustrator-123dmake-normal-view.png"><img alt="images/illustrator-123dmake-normal-view.png" src="../images/illustrator-123dmake-normal-view.png" /></a><br />
+<em>Plan from 123DMake in normal view, separated by color</em></p>
+<p><a href="../images/illustrator-123dmake-plan-pathview.png"><img alt="images/illustrator-123dmake-plan-pathview.png" src="../images/illustrator-123dmake-plan-pathview.png" /></a><br />
+<em>Plan from 123DMake in path view</em></p>
+<p><a href="../images/illustrator-123dmake-split-panels-normal-view.png"><img alt="images/illustrator-123dmake-split-panels-normal-view.png" src="../images/illustrator-123dmake-split-panels-normal-view.png" /></a><br />
+<em>Split Plan from 123DMake in normal view, separated by color</em></p>
+<p><a href="../images/illustrator-123dmake-split-panels-path-view.png"><img alt="images/illustrator-123dmake-split-panels-path-view.png" src="../images/illustrator-123dmake-split-panels-path-view.png" /></a><br />
+<em>Split Plan from 123DMake in path view</em></p>
 <h6 id="plans-from-the-blender-paper-model-add-on">Plans from the Blender Paper Model Add-on<a class="headerlink" href="#plans-from-the-blender-paper-model-add-on" title="Permanent link">&para;</a></h6>
 <p>The size settings from the Paper Model Add-on within Blender are not that intuitive. It is easier export it to something like a A3 paper size and then rescale the model to fit your needs. On the image below you see once the export from blender (the .svg) and on the second and third image the cleaned version in normal and path view. You will need to convert the dotted lines to real paths or it will be a straight cut. Remove all unwanted paths and split them with colors so the laser software can detect them as own layers.  </p>
-<p><img alt="images/illustrator-paper-model-add-on-export.png" src="../images/illustrator-paper-model-add-on-export.png" /><br />
-<img alt="images/illustrator-paper-model-add-on-normal-view.png" src="../images/illustrator-paper-model-add-on-normal-view.png" /><br />
-<img alt="images/illustrator-paper-model-add-on-path-view.png" src="../images/illustrator-paper-model-add-on-path-view.png" />  </p>
-<h6 id="using-inkscape">Using Inkscape<a class="headerlink" href="#using-inkscape" title="Permanent link">&para;</a></h6>
-<p>The same principles as in Illustrator apply to Inkscape.  </p>
+<p><a href="../images/illustrator-paper-model-add-on-export.png"><img alt="images/illustrator-paper-model-add-on-export.png" src="../images/illustrator-paper-model-add-on-export.png" /></a><br />
+<em>Plan from the Paper Model Add-on in normal view, unedited</em></p>
+<p><a href="../images/illustrator-paper-model-add-on-normal-view.png"><img alt="images/illustrator-paper-model-add-on-normal-view.png" src="../images/illustrator-paper-model-add-on-normal-view.png" /></a><br />
+<em>Plan from the Paper Model Add-on in normal view, separated by color</em></p>
+<p><a href="../images/illustrator-paper-model-add-on-path-view.png"><img alt="images/illustrator-paper-model-add-on-path-view.png" src="../images/illustrator-paper-model-add-on-path-view.png" /></a><br />
+<em>Plan from the Paper Model Add-on in path view</em></p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>Using Inkscape<br />
+The same principles as in Illustrator apply to Inkscape.  </p>
 <ul>
 <li>Set the size and units of your document.  </li>
 <li>Rescale your plan to fit your material.  </li>
@@ -193,11 +209,14 @@ One important step is to remove the most outer path. This is an outer bound crea
 <li>Separate the paths using colors (if needed).  </li>
 <li>Take a look at the outline view to see the raw paths.  </li>
 </ul>
+</div>
 <h6 id="export-dxf">Export DXF<a class="headerlink" href="#export-dxf" title="Permanent link">&para;</a></h6>
 <p>When exporting to .dxf files just you need to watch out for the unit conversion and the DXF version number.<br />
 The laser at the University of Applied Sciences Potsdam (Germany) needs DXF R14 files and the unit scaling should be from one millimeter to one unit. If you already did set your units in the document settings you should be fine. Below you see the export panel from Illustrator and from Inkscape. <em>Apologize for the localized screenshots.</em>  </p>
-<p><img alt="images/illustrator-dxf-export.png" src="../images/illustrator-dxf-export.png" /><br />
-<img alt="images/inkscape-dxf-export.png" src="../images/inkscape-dxf-export.png" />  </p>
+<p><a href="../images/illustrator-dxf-export.png"><img alt="images/illustrator-dxf-export.png" src="../images/illustrator-dxf-export.png" /></a><br />
+<em>Export Panel Adobe Illustrator</em></p>
+<p><a href="../images/inkscape-dxf-export.png"><img alt="images/inkscape-dxf-export.png" src="../images/inkscape-dxf-export.png" /></a><br />
+<em>Export Panel Inkscape</em></p>
               
             </div>
           </div>
@@ -208,7 +227,7 @@ The laser at the University of Applied Sciences Potsdam (Germany) needs DXF R14 
         <a href="../laser/" class="btn btn-neutral float-right" title="Laser">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../processing.org/" class="btn btn-neutral" title="Processing"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../123dmake/" class="btn btn-neutral" title="123DMake"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -217,6 +236,8 @@ The laser at the University of Applied Sciences Potsdam (Germany) needs DXF R14 
 
   <div role="contentinfo">
     <!-- Copyright etc -->
+    
+      <p>Copyright (c) 2016 Fabian Morón Zirfas & University of Applied Sciences Potsdam (Germany)</p>
     
   </div>
 
@@ -234,7 +255,7 @@ The laser at the University of Applied Sciences Potsdam (Germany) needs DXF R14 
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../processing.org/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../123dmake/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
         <span style="margin-left: 15px"><a href="../laser/" style="color: #fcfcfc">Next &raquo;</a></span>
