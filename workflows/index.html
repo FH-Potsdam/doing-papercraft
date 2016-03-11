@@ -69,9 +69,6 @@
         
             <ul>
             
-                <li class="toctree-l3"><a href="#workflows">Workflows</a></li>
-                
-            
                 <li class="toctree-l3"><a href="#workflow-123dmake">Workflow 123DMake</a></li>
                 
             
@@ -165,13 +162,12 @@
           <div role="main">
             <div class="section">
               
-                <h6 id="workflows">Workflows<a class="headerlink" href="#workflows" title="Permanent link">&para;</a></h6>
-<p>There are several different workflows to create data the laser can read. We will concentrate for now on using Blender with Autodesks 123DMake. There are other applications that can produce similar results.  </p>
+                <p>There are several different workflows to create data the laser can read. We will concentrate for now on using Blender with Autodesks 123DMake. There are other applications that can produce similar results.  </p>
 <h6 id="workflow-123dmake">Workflow 123DMake<a class="headerlink" href="#workflow-123dmake" title="Permanent link">&para;</a></h6>
 <p>This is the most straight forward way. There is no knowledge of programming needed and all the tools used are open source and free except for Adobe Illustrator what can be substituted with Inkscape. The learning curve for Blender can be a bit steep but there are tons of good tutorials out there. Take a look at the <a href="../links/">Links</a> for some external references about it.  </p>
 <ul>
 <li>Blender (modeling) ⇒ Export Wavefront (obj) or Binary/ASCII STL (stl) </li>
-<li>123DMake () ⇒ Export PDF or EPS  </li>
+<li>123DMake (unfolding) ⇒ Export PDF or EPS  </li>
 <li>Illustrator/Inkscape (clean up) ⇒ Export DXF R14   </li>
 </ul>
 <h6 id="workflow-processing">Workflow Processing<a class="headerlink" href="#workflow-processing" title="Permanent link">&para;</a></h6>
@@ -179,7 +175,7 @@
 <ul>
 <li>Processing ⇒ Export OBJ</li>
 <li>Blender (clean up) ⇒ Export Wavefront (obj) or Binary/ASCII STL (stl)</li>
-<li>123DMake () ⇒ Export PDF or EPS  </li>
+<li>123DMake (unfolding) ⇒ Export PDF or EPS  </li>
 <li>Illustrator/Inkscape (clean up) ⇒ Export DXF R14  </li>
 </ul>
 <h6 id="workflow-paperkura">Workflow Paperkura<a class="headerlink" href="#workflow-paperkura" title="Permanent link">&para;</a></h6>
@@ -190,7 +186,7 @@
 <li>Illustrator/Inkscape (clean up) ⇒ Export DXF R14 (Illustrator/Inkscape)  </li>
 </ul>
 <h6 id="workflow-dxf2papercraft">Workflow dxf2papercraft<a class="headerlink" href="#workflow-dxf2papercraft" title="Permanent link">&para;</a></h6>
-<p>This is the hackers way to do that. dxf2papercraft is a command line tool that converts 3D models to 2D plans. We managed to run it in a vagrant box. A sample how to run it is provided.  </p>
+<p>This is the hackers way to do that. dxf2papercraft is a command line tool that converts 3D models to 2D plans. We managed to run it in a vagrant box. A sample how to run it is provided <a href="https://github.com/FH-Potsdam/doing-papercraft/tree/master/bin/DXF2papercraft-vagrant">here</a>.  </p>
 <ul>
 <li>Blender (modeling) ⇒  AutoCAD 3D (dxf)</li>
 <li>dxf2papercraft ⇒ Export 2D DXF</li>
