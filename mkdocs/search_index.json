@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Doing Papercraft\n\n\n  \n\n\nIntroduction\n\n\nThis document is a write-down for a workshop by \nFabian Mor\u00f3n Zirfas\n @ \nthe University of Applied Sciences Potsdam (Germany)\n as part of the seminar \nDatenobjekte\n (data objects) by \nProfessor Boris M\u00fcller\n (a.k.a \n@borism\n on Twitter). We will explore the minimal basics of the 3D application Blender to create primitive shapes which will then be unfolded using 123DMake for laser cutting. \nThis is still work in progress, there might be\n \ud83d\udc1b\n,\n \ud83d\udc09 \nand\n \ud83d\udc7e\n.\n  \n\n\nPrerequisites\n\n\n\n\na computer\n\n\na 3 button mouse\n\n\nBlender (or another 3D application if you already know how to model in 3D)\n\n\n123DMake \n\n\nVector Editor (Illustrator, Inkscape, Affinity Designer)  \n\n\nProcessing  \n\n\n\n\n\n\nNote\n\n\nSome of these are optional. Depending on which workflow you are going to use.", 
+            "text": "Doing Papercraft\n\n\n  \n\n\nIntroduction\n\n\nThis document is a write-down for a workshop by \nFabian Mor\u00f3n Zirfas\n @ \nthe University of Applied Sciences Potsdam (Germany)\n as part of the seminar \nDatenobjekte\n (data objects) by \nProfessor Boris M\u00fcller\n (a.k.a \n@borism\n on Twitter). We will explore the minimal basics of the 3D application Blender to create primitive shapes which will then be unfolded using 123DMake for laser cutting. \nThis is still work in progress, there might be\n \ud83d\udc1b\n,\n \ud83d\udc09 \nand\n \ud83d\udc7e\n.\n  \n\n\nPrerequisites\n\n\n\n\na computer\n\n\na 3 button mouse\n\n\nBlender (or another 3D application if you already know how to model in 3D)\n\n\n123DMake \n\n\nVector Editor (Illustrator, Inkscape, Affinity Designer)  \n\n\nProcessing  \n\n\n\n\n\n\nNote\n\n\nSome of these are optional. Depending on which workflow you are going to use.  \n\n\n\n\nSource\n\n\nThese docs are written using \nmkdocs\n using the \nreadthedocs\n theme by Fabian Mor\u00f3n Zirfas with \u2665. See the source on \nGitHub.", 
             "title": "Home"
         }, 
         {
@@ -19,6 +19,11 @@
             "location": "/#prerequisites", 
             "text": "a computer  a 3 button mouse  Blender (or another 3D application if you already know how to model in 3D)  123DMake   Vector Editor (Illustrator, Inkscape, Affinity Designer)    Processing      Note  Some of these are optional. Depending on which workflow you are going to use.", 
             "title": "Prerequisites"
+        }, 
+        {
+            "location": "/#source", 
+            "text": "These docs are written using  mkdocs  using the  readthedocs  theme by Fabian Mor\u00f3n Zirfas with \u2665. See the source on  GitHub.", 
+            "title": "Source"
         }, 
         {
             "location": "/workflows/", 
