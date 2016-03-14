@@ -124,6 +124,12 @@
                 <li class="toctree-l3"><a href="#modeling-extrude">(Modeling) Extrude</a></li>
                 
             
+                <li class="toctree-l3"><a href="#modeling-separate">(Modeling) Separate</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#modeling-join">(Modeling) Join</a></li>
+                
+            
                 <li class="toctree-l3"><a href="#modeling-other-manipulations">(Modeling) Other Manipulations</a></li>
                 
             
@@ -238,7 +244,7 @@
             <div class="section">
               
                 <h6 id="about-blender">About Blender<a class="headerlink" href="#about-blender" title="Permanent link">&para;</a></h6>
-<p><img src="images/blender-logo.svg" width=1000 alt="">
+<p><img src="../images/blender-logo.svg" width=1000 alt="blender logo">
 <!-- <img alt="Blender logo" src="images/blender-logo.svg" />   --></p>
 <blockquote>
 <p>Blender is a professional free and open-source 3D computer graphics software product used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games. Blender&rsquo;s features include 3D modeling, UV unwrapping, texturing, raster graphics editing, rigging and skinning, fluid and smoke simulation, particle simulation, soft body simulation, sculpting, animating, match moving, camera tracking, rendering, video editing and compositing. Alongside the modeling features it also has an integrated game engine.<br />
@@ -651,6 +657,33 @@ Go to Edit Mode by hitting the <strong>⇥</strong> key (TAB). As mentioned in t
 </tr>
 </tbody>
 </table>
+<h6 id="modeling-separate">(Modeling) Separate<a class="headerlink" href="#modeling-separate" title="Permanent link">&para;</a></h6>
+<p>You might come to the point where you need to separate an object in multiple ones. There is an easy short cut for that. Go into Edit Mode (hit ⇥) and select the faces or vertices you want in an new object and hit <strong>p</strong>. You will be presented with a dialog that allows you to split by:  </p>
+<table>
+<thead>
+<tr>
+<th>Split Type</th>
+<th>Outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Selected</strong></td>
+<td>This option separates the selection to a new object.</td>
+</tr>
+<tr>
+<td><strong>All Loose Parts</strong></td>
+<td>Separates the mesh in its unconnected parts.</td>
+</tr>
+<tr>
+<td><strong>By Material</strong></td>
+<td>Creates separate mesh objects for each material.</td>
+</tr>
+</tbody>
+</table>
+<p>Read more <a href="https://www.blender.org/manual/editors/3dview/object/editing.html#separate">here.</a>  </p>
+<h6 id="modeling-join">(Modeling) Join<a class="headerlink" href="#modeling-join" title="Permanent link">&para;</a></h6>
+<p>To join selected objects into one single object you can select them all. in <strong>j</strong>. Be aware that they will all be joined into the last selected object. You can see it in the difference in the highlight color. Read more <a href="https://www.blender.org/manual/editors/3dview/object/editing.html#join">here.</a></p>
 <h6 id="modeling-other-manipulations">(Modeling) Other Manipulations<a class="headerlink" href="#modeling-other-manipulations" title="Permanent link">&para;</a></h6>
 <table>
 <thead>
