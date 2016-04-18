@@ -70,6 +70,10 @@
                 
                     <li><a class="toctree-l4" href="#source">Source</a></li>
                 
+                    <li><a class="toctree-l4" href="#contribution-issues">Contribution &amp; Issues</a></li>
+                
+                    <li><a class="toctree-l4" href="#creating-gifs">Creating gifs</a></li>
+                
             
             </ul>
         
@@ -177,7 +181,19 @@
 <p>Some of these are optional. Depending on which workflow you are going to use.  </p>
 </div>
 <h6 id="source">Source<a class="headerlink" href="#source" title="Permanent link">&para;</a></h6>
-<p>These docs are written using <a href="http://www.mkdocs.org/">mkdocs</a> using the <a href="https://readthedocs.org/">readthedocs</a> theme by Fabian Morón Zirfas with ♥. See the source on <a href="https://github.com/FH-Potsdam/doing-papercraft">GitHub.</a>  </p>
+<p>These docs are written by Fabian Morón Zirfas with ♥ using <a href="http://www.mkdocs.org/">mkdocs</a> using the <a href="https://readthedocs.org/">readthedocs</a> theme. See the source on <a href="https://github.com/FH-Potsdam/doing-papercraft">GitHub.</a>.  </p>
+<h6 id="contribution-issues">Contribution &amp; Issues<a class="headerlink" href="#contribution-issues" title="Permanent link">&para;</a></h6>
+<p>Please file any issues <a href="https://github.com/FH-Potsdam/doing-papercraft/issues">here</a> on GitHub. Contributions and Pull Requests are welcome.  </p>
+<h6 id="creating-gifs">Creating gifs<a class="headerlink" href="#creating-gifs" title="Permanent link">&para;</a></h6>
+<p>The gifs in these docs are created by transfomring a screenrecord with ffmpeg to a sequence. This sequence then gets transformed with ImageMagick to a gif. ffmpeg and ImageMagick can be installde using <a href="https://brew.sh">homebrew</a>.  </p>
+<p>Install brew like discribed on their site. Then run:</p>
+<pre><code>brew install ffmpeg --with-fdk-aac --with-ffplay --with-freetype --with-frei0r --with-libass --with-libvo-aacenc --with-libvorbis --with-libvpx --with-opencore-amr --with-openjpeg --with-opus --with-rtmpdump --with-schroedinger --with-speex --with-theora --with-tools
+brew install imagemagick
+</code></pre>
+<p>You should be good to go. </p>
+<pre><code>ffmpeg -i blender-ui.mp4 -r 20 -vcodec ppm  -s800x600 seq/out%05d.png
+convert -layers Optimize seq/out*.png ../images/blender-ui.gif
+</code></pre>
               
             </div>
           </div>
@@ -225,5 +241,5 @@
 
 <!--
 MkDocs version : 0.15.3
-Build Date UTC : 2016-04-18 05:54:32.432123
+Build Date UTC : 2016-04-18 06:03:49.429843
 -->
