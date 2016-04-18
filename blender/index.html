@@ -112,10 +112,10 @@
                 <li class="toctree-l3"><a href="#modeling-duplication">(Modeling) Duplication</a></li>
                 
             
-                <li class="toctree-l3"><a href="#modeling-using-manipulators">(Modeling) Using Manipulators</a></li>
+                <li class="toctree-l3"><a href="#modeling-transformation-using-manipulators">(Modeling) Transformation Using Manipulators</a></li>
                 
             
-                <li class="toctree-l3"><a href="#modeling-using-hotkeys">(Modeling) Using Hotkeys</a></li>
+                <li class="toctree-l3"><a href="#modeling-transformation-using-hotkeys">(Modeling) Transformation Using Hotkeys</a></li>
                 
             
                 <li class="toctree-l3"><a href="#modeling-mesh-manipulation">(Modeling) Mesh Manipulation</a></li>
@@ -520,11 +520,9 @@ To delete the selection hit <strong>x</strong> this applies for Edit- and Object
 </tbody>
 </table>
 <h6 id="modeling-making-selections">(Modeling) Making Selections<a class="headerlink" href="#modeling-making-selections" title="Permanent link">&para;</a></h6>
-<p>To select objects use the left mouse click (if set to left selection. The default is right selection). You can add or remove objects to or from the selection by holding <strong>⇧</strong>. Selected objects are highlighted in orange (default theme). The first in the order of selected objects is a bit brighter. You can also select everything by hitting <strong>a</strong>. In &ldquo;Edit Mode&rdquo; there are some extra options for selecting things. You can switch between vertices, edges and faces selection and you can combine them with the buttons on the bar below the 3D view. </p>
+<p>To select objects use the left mouse click (if set to left selection. The default is right selection). You can add or remove objects to or from the selection by holding <strong>⇧</strong>. Selected objects are highlighted in orange (default theme). The first in the order of selected objects is a bit brighter. You can also select everything by hitting <strong>a</strong>. In &ldquo;Edit Mode&rdquo; there are some extra options for selecting things. You can switch between vertices, edges and faces selection and you can combine them with the buttons on the bar below the 3D view. 
+Ther are also other selection modes. The rectangular (key <strong>r</strong> ) or circular (key <strong>c</strong>) selection allows to select  by clicking and dragging. This only applies to the visible objects, vertices, edges and faces. You can change this behavior if you want to selection to apply to non visible objects as well. There are even more options for selecting. Like Inverting selections and so on. See <a href="https://www.blender.org/manual/modeling/meshes/selecting/introduction.html#selection-mode">the Blender Manual</a>  </p>
 <p><a href="../images/selection-modes.png"><img alt="selection-modes.png" src="../images/selection-modes.png" /></a>  </p>
-<h6 id="modeling-duplication">(Modeling) Duplication<a class="headerlink" href="#modeling-duplication" title="Permanent link">&para;</a></h6>
-<p>To duplicate the current selection (in edit or object mode) just hit <strong>⇧ + d</strong>. This also sets the newly created objects into grab mode so you can set their new position. All the <a href="#transformation">Transformation</a> rules apply.<br />
-The rectangular (hit <strong>r</strong> before selecting) or circular (hit <strong>c</strong>) selection by clicking and dragging only applies to the visible objects, vertices, edges and faces by default you can change this if you want. There are more options for selecting. Like Inverting selections and so on. See <a href="https://www.blender.org/manual/modeling/meshes/selecting/introduction.html#selection-mode">the Blender Manual</a>  </p>
 <table>
 <thead>
 <tr>
@@ -534,11 +532,6 @@ The rectangular (hit <strong>r</strong> before selecting) or circular (hit <stro
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>⇧ + d</td>
-<td>duplicates the selected object</td>
-<td>Object/Edit Mode</td>
-</tr>
 <tr>
 <td>Left Mouse</td>
 <td>select</td>
@@ -582,11 +575,29 @@ The rectangular (hit <strong>r</strong> before selecting) or circular (hit <stro
 </tbody>
 </table>
 <p><a href="../images/blender-ui-sel.gif"><img alt="blender-ui-sel.gif" src="../images/blender-ui-sel.gif" /></a>  </p>
-<h6 id="modeling-using-manipulators">(Modeling) Using Manipulators<a class="headerlink" href="#modeling-using-manipulators" title="Permanent link">&para;</a></h6>
+<h6 id="modeling-duplication">(Modeling) Duplication<a class="headerlink" href="#modeling-duplication" title="Permanent link">&para;</a></h6>
+<p>To duplicate the current selection (in edit or object mode) just hit <strong>⇧ + d</strong>. This also sets the newly created objects into grab mode so you can set their new position. All the <a href="#transformation">Transformation</a> rules apply.  </p>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Result</th>
+<th>Mode</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⇧ + d</td>
+<td>duplicates the selected object</td>
+<td>Object/Edit Mode</td>
+</tr>
+</tbody>
+</table>
+<h6 id="modeling-transformation-using-manipulators">(Modeling) Transformation Using Manipulators<a class="headerlink" href="#modeling-transformation-using-manipulators" title="Permanent link">&para;</a></h6>
 <p>You can transform objects, groups, vertices, edges and faces (i.e. your selection) by using the 3D manipulators. Change between grab, rotate and scale mode on the bottom of the 3D view. You can combine them or shut them off totally. If you click and drag into the circle at the centre of the manipulator you transform on all axis at once.  </p>
 <p><a href="../images/manipulation.gif"><img alt="manipulation.gif" src="../images/manipulation.gif" /></a>  </p>
-<h6 id="modeling-using-hotkeys">(Modeling) Using Hotkeys<a class="headerlink" href="#modeling-using-hotkeys" title="Permanent link">&para;</a></h6>
-<p>Sometimes it is even more convenient to use the hotkeys. When using the hotkeys you can easily constrain the manipulation to an axis. Just hit for example <strong>g + x</strong> to only move the selection on the global x-axis. If you hit <strong>x</strong> twice you transform on the objects local axis. The second transformation corresponds with the pull down next to the manipulator buttons on the button of the view. Read some more about the manipulators <a href="https://www.blender.org/manual/editors/3dview/transform/transform_control/manipulators.html">here</a>.   </p>
+<h6 id="modeling-transformation-using-hotkeys">(Modeling) Transformation Using Hotkeys<a class="headerlink" href="#modeling-transformation-using-hotkeys" title="Permanent link">&para;</a></h6>
+<p>Sometimes it is more convenient to use the hotkeys. When using the hotkeys you can easily constrain the manipulation to an axis. Just hit for example <strong>g + x</strong> to only move the selection on the global x-axis. If you hit <strong>x</strong> twice you transform on the objects local axis. The second transformation corresponds with the pull down next to the manipulator buttons on the button of the view. Read some more about the manipulators <a href="https://www.blender.org/manual/editors/3dview/transform/transform_control/manipulators.html">here</a>.   </p>
 <table>
 <thead>
 <tr>
