@@ -9,7 +9,7 @@
   <meta name="author" content="Fabian 'fabiantheblind' Morón Zirfas">
   <link rel="shortcut icon" href="../favicon.ico">
   
-  <title>123DMake - Doing Papercraft</title>
+  <title>Slicer for Fusion 360 - Doing Papercraft</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -19,9 +19,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "123DMake";
-    var mkdocs_page_input_path = "123dmake.md";
-    var mkdocs_page_url = "/123dmake/";
+    var mkdocs_page_name = "Slicer for Fusion 360";
+    var mkdocs_page_input_path = "slicer.md";
+    var mkdocs_page_url = "/slicer/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -71,10 +71,10 @@
           
             <li class="toctree-l1 current">
 		
-    <a class="current" href="./">123DMake</a>
+    <a class="current" href="./">Slicer for Fusion 360</a>
     <ul class="subnav">
             
-    <li class="toctree-l2"><a href="#about-123dmake">About 123DMake</a></li>
+    <li class="toctree-l2"><a href="#about-slicer-for-fusion-360">About Slicer for Fusion 360</a></li>
     
 
     <li class="toctree-l2"><a href="#object-and-material-settings">Object and Material Settings</a></li>
@@ -149,7 +149,7 @@
     
       
     
-    <li>123DMake</li>
+    <li>Slicer for Fusion 360</li>
     <li class="wy-breadcrumbs-aside">
       
         <a href="https://github.com/FH-Potsdam/doing-papercraft/"> Edit on doing-papercraft</a>
@@ -161,8 +161,8 @@
           <div role="main">
             <div class="section">
               
-                <h6 id="about-123dmake">About 123DMake<a class="headerlink" href="#about-123dmake" title="Permanent link">&para;</a></h6>
-<p>When you are done with creating a simple 3D object either by using <a href="../{{blender.html | prepend: site.basurl}}">Blender</a> or with <a href="../{{processing.org.html | prepend: site.baseurl}}">Processing</a> you can move on to <a href="http://www.123dapp.com/make">Autodesks 123DMake</a>. Allows creation of low-tech LOM-style (Laminated object manufacturing) solid models. The application has several construction techniques for now we will only focus on creating <a href="#folded-panels">Folded Panels</a>.  </p>
+                <h6 id="about-slicer-for-fusion-360">About Slicer for Fusion 360<a class="headerlink" href="#about-slicer-for-fusion-360" title="Permanent link">&para;</a></h6>
+<p>When you are done with creating a simple 3D object either by using <a href="../{{blender.html | prepend: site.basurl}}">Blender</a> or with <a href="../{{processing.org.html | prepend: site.baseurl}}">Processing</a> you can move on to <a href="https://apps.autodesk.com/FUSION/en/Detail/Index?id=8699194120463301363&amp;os=Win64&amp;appLang=en">Autodesks Slicer for Fusion 360</a> . This applicaiton allows creation of low-tech LOM-style (Laminated object manufacturing) solid models. The application has several construction techniques for now we will only focus on creating <a href="#folded-panels">Folded Panels</a>.  </p>
 <div class="admonition hint">
 <p class="admonition-title">Hint</p>
 <ul>
@@ -170,15 +170,15 @@
 <li>On a German localized computer <strong>the application accepts as decimal point the comma when entering values by typing </strong>- even though the numbers are displayed with a dot  </li>
 <li><strong>Pasting into fields wont work</strong>. Use the Right Mouse Button and paste from the pop up menu.  </li>
 <li><strong>Splitting the panels can save you a lot of material</strong>.  </li>
-<li>On Mac OSX you can <strong>extract the Help PDF by opening the application package</strong>. In there you&rsquo;ll find the PDF under /Applications/123DMake.app/Contents/Resources/123DMakeHelp.pdf</li>
+<li>On Mac OSX you can <strong>extract the Help PDF by opening the application package</strong>. In there you&rsquo;ll find the PDF under /Applications/SlicerForFusion360.app/Contents/
+    Resources/LargeFormatSlicerHelp.pdf</li>
 <li><strong>You need an Autodesk account</strong> for exporting your plans.</li>
 <li><strong>Don&rsquo;t perforate your plan</strong>. The marks for the folding lines are enough to. We will cut them with different settings leaving a visual mark where to fold your material.  </li>
 </ul>
 </div>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p><strong>The application tends to crash.</strong> Save your work often!  </p>
-</div>
+<!-- !!!warning
+    __The application tends to crash.__ Save your work often!   -->
+
 <h6 id="object-and-material-settings">Object and Material Settings<a class="headerlink" href="#object-and-material-settings" title="Permanent link">&para;</a></h6>
 <p>When you import your 3D model you first need to set some options. The manufacturing settings allow you to set the size of your material. This can be set to a fairly huge size (the laser cutter at the University of Applied Sciences Potsdam (Germany) has a size of 1200 mm to 900 mm). You can set the &ldquo;Object Size&rdquo; when you need a defined size. Another way is adjusting the size based on your material size. if your desired object size exceeds you material size the application will allow you to export several cut sheets.<br />
 What&rsquo;s more important is to set the &ldquo;Thickness&rdquo; of your material. This will determine how narrow/wide the holes for tongues and tabs are we are going to produce later on. There is also another setting we need to take in account. The &ldquo;Slot Offset&rdquo;. This is the amount of material the laser will take away. For cutting grey cardboard around 0.5 to 1.5 mm you can set this to &lt;=1 mm. You can set all of these settings by pressing the little wrench and then adjusting them on the bottom of the application window. You also can save some presets for your material.   </p>
@@ -187,7 +187,7 @@ What&rsquo;s more important is to set the &ldquo;Thickness&rdquo; of your materi
 <h6 id="folded-panels">Folded Panels<a class="headerlink" href="#folded-panels" title="Permanent link">&para;</a></h6>
 <blockquote>
 <p>Separates your 3D model into 2D segments of triangular meshes. These segments (panels) are folded multiple times, then attached using one of ten different joint types. Use paper, cardboard, even sheet metal.<br />
-- From 123DMake Help (within Application)  </p>
+- From Slicer Help (within Application)  </p>
 </blockquote>
 <h6 id="folded-panels-optimize-panelsadd-remove-seams">(Folded Panels) Optimize Panels/Add Remove Seams<a class="headerlink" href="#folded-panels-optimize-panelsadd-remove-seams" title="Permanent link">&para;</a></h6>
 <p>If you still want to edit your model you can adjust the count of vertices in these panels or add new seams to your object. You can also split all panels for the final cut plan.  </p>
@@ -197,7 +197,7 @@ What&rsquo;s more important is to set the &ldquo;Thickness&rdquo; of your materi
 <thead>
 <tr>
 <th align="left">Joint Types</th>
-<th align="left">Description (taken from 123Dmake Help)</th>
+<th align="left">Description (taken from Slicer Help)</th>
 </tr>
 </thead>
 <tbody>
@@ -260,28 +260,28 @@ What&rsquo;s more important is to set the &ldquo;Thickness&rdquo; of your materi
 <p><strong>Stacked Slices</strong>  </p>
 <blockquote>
 <p>Cross sections your 3D model, cutting it into slices you can glue and stack on top of one another. Use the Dowels option to make it easier to line up and assemble your model. You can recreate the model using any flat material you can cut.<br />
-- From 123DMake Help (within Application)  </p>
+- From Slicer Help (within Application)  </p>
 </blockquote>
 <p><strong>Interlocked Slices</strong>  </p>
 <blockquote>
 <p>Cuts your 3D model into two stacks of slotted slices. Lock them together in a grid, like when building a 3D puzzle. This uses less material than stacked slices.<br />
-- From 123DMake Help (within Application)  </p>
+- From Slicer Help (within Application)  </p>
 </blockquote>
 <p><strong>Curve</strong>  </p>
 <blockquote>
 <p>Cuts slices perpendicular to a curve, resembling ribs. Use this for organic shapes, such as for modelling a brontosaurus. Also, use the Navigation tools to help rotate your view to see the 
 curve.<br />
-- From 123DMake Help (within Application)  </p>
+- From Slicer Help (within Application)  </p>
 </blockquote>
 <p><strong>Radial Slices</strong>  </p>
 <blockquote>
 <p>Cuts your 3D model into radiating slices from a central point.  Use this for a round symmetrical object, such as a vase.<br />
-- From 123DMake Help (within Application)  </p>
+- From Slicer Help (within Application)  </p>
 </blockquote>
 <p><strong>Slices 3D</strong>  </p>
 <blockquote>
 <p>Cross sections your 3D model, similar to Stacked Slices. Rather than a stepped section for each slice, the section conforms to the surface of the 3D model. 
-- From 123DMake Help (within Application)  </p>
+- From Slicer Help (within Application)  </p>
 </blockquote>
 <h6 id="model-issues">Model Issues<a class="headerlink" href="#model-issues" title="Permanent link">&para;</a></h6>
 <p>If the application detects an error with your plan you can see them on the right side in the &ldquo;Model Issues&rdquo; tab.  </p>
@@ -308,7 +308,7 @@ curve.<br />
   <div role="contentinfo">
     <!-- Copyright etc -->
     
-      <p>Copyright (c) 2016 Fabian Morón Zirfas & University of Applied Sciences Potsdam (Germany). Please report any issue <a href="https://github.com/FH-Potsdam/doing-papercraft/issues">here</a> on GitHub.</p>
+      <p>Licensed under MIT License. Copyright (c) 2016 - 2017 Fabian Morón Zirfas & University of Applied Sciences Potsdam (Germany). Please report any issue <a href="https://github.com/FH-Potsdam/doing-papercraft/issues">here</a> on GitHub.</p>
     
   </div>
 
